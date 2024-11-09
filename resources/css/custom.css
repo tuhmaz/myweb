@@ -1,0 +1,25 @@
+img,
+svg {
+  vertical-align: middle;
+  max-width: 100%;
+
+}
+.article-default-image {
+  max-width: 50%;  /* تأكد من أن الصورة لا تتجاوز عرض الحاوية */
+  height: auto;     /* اجعل الارتفاع يتناسب مع العرض */
+  display: block;   /* لجعل الصورة تظهر كعنصر بلوك */
+  margin: 0 auto;   /* لجعل الصورة في منتصف الصفحة */
+  max-height: 300px; /* الحد الأقصى للارتفاع بحيث تكون الصورة أصغر */
+}
+
+@media (max-width: 768px) {
+  .article-default-image {
+      max-width: 90%; /* تصغير عرض الصورة على الأجهزة الصغيرة */
+      max-height: 200px; /* تقليل ارتفاع الصورة على الأجهزة الصغيرة */
+  }
+}
+
+.article-content img {
+  max-width: 100%; /* ضبط أي صورة في المحتوى لتناسب العرض الكامل للحاوية */
+  height: auto;    /* ضبط الارتفاع ليكون متناسبًا */
+}

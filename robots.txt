@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /
+
+# السماح بالصفحة الرئيسية
+Allow: /$
+
+# السماح بالوصول إلى المقالات
+Allow: /articles
+Allow: /articles/*
+
+# السماح بالوصول إلى الأخبار
+Allow: /news
+Allow: /news/*
+
+# السماح بالوصول إلى الفصول الدراسية
+Allow: /lesson
+Allow: /lesson/*
+
+# روابط خريطة الموقع
+Sitemap: https://yourdomain.com/sitemap_homepage.xml
+Sitemap: https://yourdomain.com/sitemap_articles.xml
+Sitemap: https://yourdomain.com/sitemap_news.xml
+Sitemap: https://yourdomain.com/sitemap_classes.xml
+Sitemap: https://yourdomain.com/sitemap_keywords.xml

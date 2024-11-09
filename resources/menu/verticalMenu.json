@@ -1,0 +1,254 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons ti ti-home",
+      "slug": "pages-home"
+    },
+    {
+      "url": "dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-dashboard",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "app-users",
+      "submenu": [
+        {
+          "url": "dashboard/users",
+          "name": "All Users",
+          "slug": "app-users-all"
+        },
+        {
+          "url": "dashboard/users/create",
+          "name": "Add New User",
+          "slug": "app-users-create"
+        }
+      ]
+    },
+    {
+      "name": "Roles & Permissions",
+      "icon": "menu-icon tf-icons ti ti-lock",
+      "slug": "app-access",
+      "permission": "manage permissions",
+      "submenu": [
+        {
+          "url": "dashboard/roles",
+          "name": "Roles",
+          "slug": "app-access-roles",
+          "permission": "manage permissions"
+        },
+        {
+          "url": "dashboard/permissions",
+          "name": "Permission",
+          "slug": "app-access-permission",
+          "permission": "manage permissions"
+        }
+      ]
+    },
+    {
+      "name": "Classes",
+      "icon": "menu-icon tf-icons ti ti-school",
+      "slug": "app-classes",
+      "permission": "manage classes",
+      "submenu": [
+        {
+          "url": "dashboard/classes",
+          "name": "All Classes",
+          "slug": "app-classes-all"
+        },
+        {
+          "url": "dashboard/classes/create",
+          "name": "Add New Class",
+          "slug": "app-classes-create"
+        }
+      ]
+    },
+    {
+      "name": "Subjects",
+      "icon": "menu-icon tf-icons ti ti-book",
+      "slug": "app-subjects",
+      "permission": "manage subjects",
+      "submenu": [
+        {
+          "url": "dashboard/subjects",
+          "name": "All Subjects",
+          "slug": "app-subjects-all"
+        },
+        {
+          "url": "dashboard/subjects/create",
+          "name": "Add New Subject",
+          "slug": "app-subjects-create"
+        }
+      ]
+    },
+    {
+      "name": "Semesters",
+      "icon": "menu-icon tf-icons ti ti-calendar",
+      "slug": "app-semesters",
+      "permission": "manage semesters",
+      "submenu": [
+        {
+          "url": "dashboard/semesters",
+          "name": "All Semesters",
+          "slug": "app-semesters-all"
+        },
+        {
+          "url": "dashboard/semesters/create",
+          "name": "Add New Semester",
+          "slug": "app-semesters-create"
+        }
+      ]
+    },
+    {
+      "name": "Articles",
+      "icon": "menu-icon tf-icons ti ti-article",
+      "slug": "app-articles",
+      "permission": "manage articles",
+      "submenu": [
+        {
+          "url": "dashboard/articles",
+          "name": "All Articles",
+          "slug": "app-articles-all"
+        },
+        {
+          "url": "dashboard/articles/create",
+          "name": "Add New Article",
+          "slug": "app-articles-create"
+        }
+      ]
+    },
+    {
+      "name": "Files",
+      "icon": "menu-icon tf-icons ti ti-file",
+      "slug": "app-files",
+      "submenu": [
+        {
+          "url": "dashboard/files",
+          "name": "All Files",
+          "slug": "app-files-all"
+        },
+        {
+          "url": "dashboard/files/create",
+          "name": "Add New File",
+          "slug": "app-files-create"
+        }
+      ]
+    },
+    {
+      "name": "Categories",
+      "icon": "menu-icon tf-icons ti ti-tags",
+      "slug": "app-categories",
+      "permission": "manage Categories",
+      "submenu": [
+        {
+          "url": "dashboard/categories",
+          "name": "All categories",
+          "slug": "app-categories-all"
+        },
+        {
+          "url": "dashboard/categories/create",
+          "name": "Add New categories",
+          "slug": "app-categories-create"
+        }
+      ]
+    },
+    {
+      "name": "News",
+      "icon": "menu-icon tf-icons ti ti-news",
+      "slug": "app-news",
+      "permission": "manage news",
+      "submenu": [
+        {
+          "url": "dashboard/news",
+          "name": "All News",
+          "slug": "app-news-all"
+        },
+        {
+          "url": "dashboard/news/create",
+          "name": "Add New News",
+          "slug": "app-news-create"
+        }
+      ]
+    },
+    {
+      "name": "Messages",
+      "icon": "menu-icon tf-icons ti ti-message",
+      "slug": "app-messages",
+      "submenu": [
+        {
+          "url": "dashboard/messages",
+          "name": "Inbox",
+          "slug": "app-messages"
+        },
+        {
+          "url": "dashboard/messages/sent",
+          "name": "Sent",
+          "slug": "app-messages-sent"
+        },
+        {
+          "url": "dashboard/messages/drafts",
+          "name": "Drafts",
+          "slug": "app-messages-drafts"
+        },
+        {
+          "url": "dashboard/messages/important",
+          "name": "Important",
+          "slug": "app-messages-important"
+        },
+        {
+          "url": "dashboard/messages/trash",
+          "name": "Trash",
+          "slug": "app-messages-trash"
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "app-settings",
+      "permission": "manage settings",
+      "submenu": [
+        {
+          "url": "dashboard/settings",
+          "name": "General",
+          "slug": "app-settings-general"
+        }
+      ]
+    },
+    {
+      "name": "Sitemap",
+      "icon": "menu-icon tf-icons ti ti-map",
+      "slug": "app-sitemap",
+      "permission": "manage sitemap",
+      "submenu": [
+        {
+          "url": "dashboard/sitemap",
+          "name": "General",
+          "slug": "app-sitemap-general"
+        },
+        {
+          "url": "dashboard/sitemap/manage",
+          "name": "Manage",
+          "slug": "app-sitemap-manage"
+        }
+      ]
+    },
+    {
+      "name": "Calendar",
+      "icon": "menu-icon tf-icons ti ti-calendar-event",
+      "slug": "app-calendar",
+      "permission": "manage calendar",
+      "submenu": [
+        {
+          "url": "dashboard/calendar",
+          "name": "Calendar",
+          "slug": "app-calendar-all"
+        }
+      ]
+    }
+  ]
+}

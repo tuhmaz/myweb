@@ -1,0 +1,121 @@
+
+.calendar {
+  display: flex;
+  position: relative;
+  padding: 16px;
+  margin: 0 auto;
+  max-width: 420px;
+  background: rgb(128 131 144);
+  border-radius: 4px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.month-year {
+  position: absolute;
+  bottom: 120px;
+  right: -65px;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 300;
+  color: #c4c5c7;
+  transform: rotate(90deg);
+}
+
+.year {
+  margin-left: 4px;
+  color: #CBD5E1;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-right: 46px;
+}
+
+.day-label {
+  position: relative;
+  flex-basis: calc(14.286% - 2px);
+  margin: 1px 1px 12px 1px;
+  font-weight: 900;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #e6e6e8;
+}
+
+.day {
+  position: relative;
+  flex-basis: calc(14.286% - 2px);
+  margin: 1px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 300;
+  color: aliceblue;
+}
+
+.day.dull {
+  color: #232525;
+}
+
+.day.today {
+  color: #0EA5E9;
+  font-weight: 600;
+}
+
+.day::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.day:hover {
+  background: #E0F2FE;
+}
+
+.day .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event {
+
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.event:hover {
+ background: rgba(0, 123, 255, 0.4);
+}
+
+.event-day .highlight {
+  background-color: #ffeb3b; /* لون التظليل */
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.day.has-event {
+  background-color: rgba(0, 123, 255, 0.1); /* تظليل خفيف باللون الأزرق */
+  border-radius: 50%; /* شكل دائري للتظليل */
+  cursor: pointer;
+}
+
+.day.has-event:hover {
+  background-color: rgba(0, 123, 255, 0.2); /* تظليل أقوى عند التمرير */
+}
+
+.day.today {
+  border: 2px solid #007bff; /* إضافة حد للأيام الحالية */
+}

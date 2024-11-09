@@ -1,0 +1,175 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "pages-home"
+    },
+    {
+      "url": "dashboard",
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "dashboard",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "app-users",
+      "submenu": [
+        {
+          "url": "dashboard/users",
+          "name": "All Users",
+          "slug": "app-users-all"
+        },
+        {
+          "url": "dashboard/users/create",
+          "name": "Add New User",
+          "slug": "app-users-create"
+        }
+      ]
+    },
+    {
+      "name": "Roles & Permissions",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "app-access",
+      "submenu": [
+        {
+          "url": "dashboard/roles",
+          "name": "Roles",
+          "slug": "app-access-roles"
+        },
+        {
+          "url": "dashboard/permissions",
+          "name": "Permission",
+          "slug": "app-access-permission"
+        },
+        {
+          "url": "dashboard/users",
+          "name": "Permission users",
+          "slug": "app-access-permission-users"
+        }
+      ]
+    },
+    {
+      "name": "Classes",
+      "icon": "menu-icon tf-icons ti ti-building",
+      "slug": "app-classes",
+      "submenu": [
+        {
+          "url": "dashboard/classes",
+          "name": "All Classes",
+          "slug": "app-classes-all"
+        },
+        {
+          "url": "dashboard/classes/create",
+          "name": "Add New Class",
+          "slug": "app-classes-create"
+        }
+      ]
+    },
+    {
+      "name": "Subjects",
+      "icon": "menu-icon tf-icons ti ti-book",
+      "slug": "app-subjects",
+      "submenu": [
+        {
+          "url": "dashboard/subjects",
+          "name": "All Subjects",
+          "slug": "app-subjects-all"
+        },
+        {
+          "url": "dashboard/subjects/create",
+          "name": "Add New Subject",
+          "slug": "app-subjects-create"
+        }
+      ]
+    },
+    {
+      "name": "Semesters",
+      "icon": "menu-icon tf-icons ti ti-calendar",
+      "slug": "app-semesters",
+      "submenu": [
+        {
+          "url": "dashboard/semesters",
+          "name": "All Semesters",
+          "slug": "app-semesters-all"
+        },
+        {
+          "url": "dashboard/semesters/create",
+          "name": "Add New Semester",
+          "slug": "app-semesters-create"
+        }
+      ]
+    },
+    {
+      "name": "Articles",
+      "icon": "menu-icon tf-icons ti ti-article",
+      "slug": "app-articles",
+      "submenu": [
+        {
+          "url": "dashboard/articles",
+          "name": "All Articles",
+          "slug": "app-articles-all"
+        },
+        {
+          "url": "dashboard/articles/create",
+          "name": "Add New Article",
+          "slug": "app-articles-create"
+        }
+      ]
+    },
+    {
+      "name": "Files",
+      "icon": "menu-icon tf-icons ti ti-folder",
+      "slug": "app-files",
+      "submenu": [
+        {
+          "url": "dashboard/files",
+          "name": "All Files",
+          "slug": "app-files-all"
+        },
+        {
+          "url": "dashboard/files/create",
+          "name": "Add New File",
+          "slug": "app-files-create"
+        }
+      ]
+    },
+    {
+      "name": "Categories",
+      "icon": "menu-icon tf-icons ti ti-news",
+      "slug": "app-Categories",
+      "permission": "manage Categories",
+      "submenu": [
+        {
+          "url": "dashboard/categories",
+          "name": "All categories",
+          "slug": "app-news-all"
+        },
+        {
+          "url": "dashboard/categories/create",
+          "name": "Add New categories",
+          "slug": "app-categories-create"
+        }
+      ]
+    },
+    {
+      "name": "News",
+      "icon": "menu-icon tf-icons ti ti-news",
+      "slug": "app-news",
+      "submenu": [
+        {
+          "url": "dashboard/news",
+          "name": "All News",
+          "slug": "app-news-all"
+        },
+        {
+          "url": "dashboard/news/create",
+          "name": "Add New News",
+          "slug": "app-news-create"
+        }
+      ]
+    }
+  ]
+}
